@@ -1,0 +1,57 @@
+/*Ingredient adding*/
+
+#ingredient-adder {
+	width: 100%;
+}
+
+#ingredient-btn {
+	background: #F89406;
+	outline: none;
+	border: 0.5px;
+	font-weight: 500;
+	box-shadow: 1px 3px 5px #ABB7B7;
+}
+
+#ingredient-btn:hover {
+	background: #F9690E;
+}
+
+#ingredient-btn:active {
+	background: #C0392B;
+}
+
+/*Ingredient containers and elements*/
+
+#box-with-ingredients {
+	box-shadow: 1px 3px 5px #ABB7B7;
+}
+
+.container-ingredient {
+	margin-top: 2.5%;
+}
+
+.ingredient-li {
+	margin-top: 4%;
+	list-style: none;
+}
+
+.ingredient-li::before {
+	color: #F89406;
+	content: "■";
+}
+
+.ingredient-li span {
+	position: relative;
+	left: 5px;
+}
+
+#box-with-ingredients p {
+	margin-top: 7%;
+}
+
+.fa-trash-o {
+	float: right;
+	padding-right: 10px;
+	margin-top: 2%;
+	cursor: pointer;
+}

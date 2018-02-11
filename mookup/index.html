@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MookUp</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+	<nav>
+		<div class="container">
+			<h2>MookUp</h2>
+		</div>
+	</nav>
+
+	<main>
+
+		<div class="container container-ingredient">
+			<div class="row">
+				<div class="col-sm-4 align-self-start">
+					<h4>Add ingredient</h4>
+					<input type="text" placeholder="Ingredient..." id="ingredient-adder">
+					<button class="btn btn-success btn-block rounded-0" id="ingredient-btn">Add</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="container container-ingredient">
+			<div class="row">
+				<div class="col-sm-4 align-self-start">
+					<div id="box-with-ingredients" class="card">
+						<ul id="ingredient-ul"></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</main>
+
+
+	<script
+	  src="http://code.jquery.com/jquery-3.3.1.min.js"
+	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous"></script>
+	<script src="./scripts/script.js"></script>
+</body>
+</html>
