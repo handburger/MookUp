@@ -36,39 +36,3 @@ function addIngredient() {
 }
 
 ingredientBox.hide();
-
-
-
-
-
-
-
-
-// Old handlers and functions
-
-/*ingredientInput.keypress(function(event){
-	var keycode = (event.keyCode ? event.keyCode : event.which);
-	if(keycode == '13'){
-		addIngredient();
-	}
-});
-
-$(".fa-trash-o").click(function() {
-	
-});
-
-
-ingredientBtn.click(addIngredient);
-
-ingredientBox.hide();
-
-function addIngredient() {
-	if(ingredientInput.val().length > 0) {
-		let ingredientElement = "<li class='ingredient-li'>"+"<span>"+ingredientInput.val()+"</span>"+"<span><i class='fa fa-trash-o' aria-hidden='true'></i></span>"+"</li>";
-		ingredientUl.append(ingredientElement);
-	}
-
-	if (ingredientUl[0].childElementCount > 0) {
-		ingredientBox.show();
-	}
-}*/
